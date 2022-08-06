@@ -1,0 +1,1131 @@
+body{
+    width: 100%;
+}
+#pop{
+    position: absolute;
+    display: none;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgb(199, 194, 194) 3px 5px 5px 3px;
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+}
+#pop h1{
+    padding-top: 20px;
+    font-size: 35px;
+}
+#pop p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+#pop #form{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+#pop h6{
+    font-size: 15px;
+}
+#pop #consut{
+    padding: 8px;
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+}
+header ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 50px;
+}
+header li{
+    padding: 40px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 20px;
+}
+#tal{
+    background-color: red;
+    padding: 10px 30px;
+    color: white;
+    border-style: none;
+    border-bottom-right-radius: 10px;
+}
+#talentlogo2{
+    width: 10%;
+    padding-top: 0;
+    margin-left: -60px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*a:current{
+    text-decoration: underline red;
+    padding-top: 10px;
+}*/
+.experience1{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 190px;
+    margin-bottom: -80px;
+}
+.talentdiv1 h3{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.talentdiv1 h4{
+    font-size: 20px;
+    width: 60%;
+    padding-top: 0;
+}
+.talentdiv1{
+    display: block;
+    width: 60%;
+}
+.talentdiv2{
+    width: 50%;
+    display: flex;
+    margin-left: 1px;
+}
+#hire{
+    background-color: red; 
+    font-size:20px; 
+    padding: 10px 45px; 
+    color: white; 
+    text-align: center; 
+    border-bottom-right-radius: 10px; 
+    margin-right: 5px;
+}
+#pool{
+    background-color:rgba(31, 28, 28, 0.788); 
+    font-size:20px; 
+    margin-left: 5px; 
+    padding: 10px 35px; 
+    color: white; 
+    text-align: center; 
+    border-bottom-right-radius: 10px;
+}
+#talentman1{
+    width: 60vh;
+    margin-left: 40px;
+    margin-top: -60px;
+}
+#line1{
+    width: 26%;
+    margin-left: -30px; 
+    margin-top: 170px;
+}
+#thick2{
+    margin-left: 55%;
+    margin-top: -2000px;
+    width: 15%;
+}
+.experience2{
+    margin-top: 170px;
+    background-color: rgba(216, 169, 169, 0.212);
+    display: flex;
+    padding-bottom: 100px;
+
+}
+.impact{
+    display: block;
+    margin-left: 90px;
+}
+#section2{
+    width: 30%;
+    margin-left: -30%;
+    margin-top: 110px;
+}
+footer hr{
+    display: none;
+}
+.country{
+    display: inline-flex;
+}
+.experience2 h2{
+    font-size: 45px;
+    padding-top: 110px;
+    width: 50%;
+}
+.experience2 h5{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+#count1{
+    width: 10%;
+    margin-right: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+#count2{
+    width: 10%;
+    margin-right: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+#count3{
+    width: 10%;
+    margin-right: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+ #count4{
+    width: 10%;
+    margin-right: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+#count5{
+    width: 10%;
+    margin-right: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.experience3 h4{
+    margin-left: 90px;
+    font-size: 45px;
+    width: 40%;
+}
+#line2{
+    width: 24.5%;
+    margin-top: -120px;
+}
+.skill{
+    display:flex;
+    margin-left: 90px;
+}
+.skill #one{
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 23px;
+    padding: 10px 26px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+}
+.skill #one:hover{
+    transform: translateY(-15px);
+}
+.skill #two{
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 30px;
+    padding: 10px 26px;
+    border-radius: 5px;
+    position: static;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    transition: top ease 0.5s;
+}
+.skill #two:hover{
+    transform: translateY(-15px);
+}
+.skill #three{
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 23px;
+    padding: 10px 26px;
+    border-radius: 5px;
+    position: static;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    transition: top ease 0.5s;
+}
+.skill #three:hover{
+    transform: translateY(-15px);
+}
+.skill #four{
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 10px 26px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.skill #four:hover{
+    transform: translateY(-15px);
+}
+.experience3 h5{
+    margin-left: 90px;
+    font-size: 45px;
+    width: 40%;
+    margin-top: 0;
+}
+.work{
+    display:flex;
+    margin-left: 90px;
+}
+.work #oone{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #oone:hover{
+    transform: translateY(-15px);
+}
+.work #ttwo{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #ttwo:hover{
+    transform: translateY(-15px);
+}
+.work #tthree{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #tthree:hover{
+    transform: translateY(-15px);
+}
+.work #ffour{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #ffour:hover{
+    transform: translateY(-15px);
+}
+.work #ffive{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #ffive:hover{
+    transform: translateY(-15px);
+}
+.work #ssix{
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(218, 207, 207, 0.836) 3px 3px 3px  3px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.work #ssix:hover{
+    transform: translateY(-15px);
+}
+.experience4{
+    background-color: rgb(255, 248, 229);
+}
+.experience4 h3{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+.top{
+    display: flex;
+    width: 90%;
+    margin-left: 90px;
+    margin-right: 70px;
+}
+#top1{
+    text-align: center;
+    font-size: 25px;
+    box-shadow: white 3px 3px 3px 3px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    width: 30%;
+    background-color: white;
+}
+#top2{
+    text-align: center;
+    font-size: 25px;
+    box-shadow: white 3px 3px 3px 3px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    width: 30%;
+    margin-left: 30px;
+    background-color: white;
+}
+#top3{
+    text-align: center;
+    font-size: 25px;
+    margin-right: 70px;
+    width: 30%;
+    box-shadow: white 3px 3px 3px 3px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+}
+#hand{
+    width: 30%;
+    padding-bottom: 20px;
+}
+#people, #mech{
+    padding-bottom: 20px;
+}
+.bottom{
+    display: flex;
+    padding-bottom: 60px;
+    margin-top: -130px;
+}
+#rope{
+    width: 25%;
+}
+#bottom1{
+    margin-left: 280px;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-right: 30px;
+    box-shadow: white 3px 3px 3px 3px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    width: 40%;
+    background-color: white;
+}
+#bottom2{
+    text-align: center;
+    font-size: 27px;
+    margin-right: 300px;
+    margin-top: 20px;
+    box-shadow: white 3px 3px 3px 3px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 25px;
+    width: 40%;
+    background-color: white;
+}
+#write, #many{
+    padding-bottom: 20px;
+}
+.experience4 h5 span{
+    width: 50%;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+.top #top1:hover{
+    background-color: black;
+    color: white;
+}
+.top #top1{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 13px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.top #top2:hover{
+    background-color: black;
+    color: white;
+}
+.top #top2{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 13px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.top #top3:hover{
+    background-color: black;
+    color: white;
+}
+.top #top3{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 13px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.bottom #bottom1:hover{
+    background-color: black;
+    color: white;
+}
+.bottom #bottom1{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 13px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+}
+.bottom #bottom2:hover{
+    background-color: black;
+    color: white;
+}
+.bottom #bottom2{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 13px;
+    border-radius: 5px;
+    position: static;
+    transition: top ease 0.5s;
+}
+#hhire{
+    background-color: red; 
+    font-size:20px; 
+    padding: 10px 10px; 
+    color: white; 
+    width: 35%;
+    text-align: center; 
+    border-bottom-right-radius: 10px; 
+    margin-right: 5px;
+}
+#div{
+    padding-bottom: 60px;
+    display: flex;
+    margin-left: 34%;
+    margin-right: 25%;
+}
+#ppool{
+    background-color:rgba(31, 28, 28, 0.788); 
+    font-size:20px; 
+    width: 35%;
+    margin-left: 5px; 
+    padding: 10px 10px; 
+    color: white; 
+    text-align: center; 
+    border-bottom-right-radius: 10px;
+}
+#footer-talentlogo2{
+    width: 60%;
+    margin-left: 70px;
+}
+.media{
+    margin-right: 70px;
+}
+.footer{
+    background-color: rgb(47,41,42);
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#twitdiff{
+    width: 33px;
+    padding: 3px 5px;
+}
+#media{
+    width: 32px;
+    padding: 3px 3px;
+}
+#media1{
+    width: 48px;
+    height: 40px;
+    padding: 0px 1px;
+}
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(47,41,42);
+    margin-top: -10px;
+}
+footer h6{
+    margin-left: 70px;
+    font-size: 15px;
+}
+footer h5{
+    margin-right: 70px;
+    font-size: 15px;
+}
+footer hr{
+    display: none;
+}
+@media screen and (max-width: 850px){
+    body{
+        margin: 0;
+        margin-top: 5px;   
+    }
+    #pop{
+        position: absolute;
+        display: none;
+        text-align: center;
+        background-color: white;
+        box-shadow: rgb(199, 194, 194) 3px 5px 5px 3px;
+        width: 60%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    #pop h1{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    #pop p{
+        font-size: 20px;
+        color: grey;
+        text-align: center;
+    }
+    #pop #form{
+        padding: 8px;
+        background-color: red;
+        color: white;
+        border-bottom-right-radius: 10px;
+    }
+    #pop h6{
+        font-size: 15px;
+    }
+    #pop #consut{
+        padding: 8px;
+        background-color: red;
+        border-bottom-right-radius: 10px;
+        color: white;
+    }
+    header{
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+    }
+    header #nav{
+        display: none;
+    }
+    header li{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    header #tal{
+        border-bottom-right-radius: 15px;
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    #talentlogo2{
+        margin-left: 20px;
+        width: 10%;
+    }
+    .experience1{
+        display: block;
+        margin-top: 90px;
+    }
+    .talentdiv1 h3{
+        font-size: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 100%;
+        text-align: center;
+    }
+    #thick2{
+        margin-left: 90%;
+    }
+    .talentdiv1 h4{
+        font-size: 15px;
+        width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+    .talentdiv1 h5{
+        width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .talentdiv1 #hire{
+        font-size: 15px;
+        padding: 10px 20px;
+        margin-left: 20%;
+    }
+    .talentdiv1 #pool{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    #talentman1{
+        width: 50vh;
+        margin: 0;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #line1{
+        margin-left: -35%;
+        width: 30%;
+    }
+    .experience2{
+        display: block;
+        margin-top: 140px;
+        margin-left: 0;
+    }
+    .impact{
+        display: block;
+        text-align: center;
+    }
+    .experience2 h2{
+        font-size: 35px;
+        width: 65%;
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+    }
+    #section2{
+        margin: 0;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .experience2 h5{
+        font: 20px;
+        margin-top: 0;
+    }
+    .experience3 h4{
+        text-align: center;
+        font-size: 40px;
+        width: 60%;
+    }
+    #line2{
+        display: none;
+    }
+    .skill{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+    }
+   .skill #one{
+        width: 20%;
+        font-size: 25px;
+    }
+    .skill #two{
+        width: 20%;
+        font-size: 25px;
+    }
+    .skill #three{
+        width: 20%;
+        font-size: 25px;
+    }
+    .skill #four{
+        width: 20%;
+        font-size: 25px;
+    }
+    .experience3 h5{
+        text-align: center;
+        font-size: 40px;
+        width: 60%;
+    }
+    .work{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+    }
+    .work #ssix{
+        display: none;
+    }
+    .top{
+        margin: 0;
+        width: 100%;
+    }
+    #top1{
+        font-size: 30px;
+        padding: 10px 10px;
+        margin-left: 10px;
+        width: 33%;
+    }
+    #top2{
+        font-size: 30px;
+        padding: 10px 10px;
+        width: 33%;
+    }
+    #top3{
+        font-size: 30px;
+        padding: 10px 10px;
+        width: 33%;
+        margin-right: 15px;
+    }
+    #hand{
+        width: 45%;
+    }
+    .bottom{
+        margin-top: -40px;
+    }
+    #bottom1{
+        margin: 0;
+        width: 50%;
+        margin-left: 15%;
+        margin-right: 15px;
+        margin-top: 0;
+    }
+    #bottom2{
+        width: 50%;
+        margin: 0;
+        margin-left: 15px;
+        margin-right: 15%;
+        margin-top: 0;
+    }
+    #rope{
+        width: 20%;
+    }
+    #div{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #hhire{
+        font-size: 20px;
+        margin-right: 5px;
+        width: 45%;
+        padding: 10px 30px;
+    }
+    #ppool{
+        font-size: 20px;
+        width: 45%;
+        padding: 10px 15px;
+    } 
+    footer hr{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        margin-top: 5px;
+    }
+    #pop{
+        position: absolute;
+        display: none;
+        text-align: center;
+        background-color: white;
+        box-shadow: rgb(199, 194, 194) 3px 5px 5px 3px;
+        width: 60%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    #pop h1{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    #pop p{
+        font-size: 20px;
+        color: grey;
+        text-align: center;
+    }
+    #pop #form{
+        padding: 8px;
+        background-color: red;
+        color: white;
+        border-bottom-right-radius: 10px;
+    }
+    #pop h6{
+        font-size: 15px;
+    }
+    #pop #consut{
+        padding: 8px;
+        background-color: red;
+        border-bottom-right-radius: 10px;
+        color: white;
+    }
+    #talentlogo2{
+        margin-left: 20px;
+        width: 30%;
+    }
+    header #tal{
+        font-size: 15px;
+    }
+    .experience1{
+        display: block;
+        margin-top: 130px;
+        margin-left: 0;
+    }
+    .talentdiv1 h3{
+        font-size: 45px;
+        margin-left: 15%;
+        text-align: center;
+        margin-right: 14%;
+        width: 80%;
+    }
+    .talentdiv1{
+        width: 98%;
+    }
+    #thick2{
+        margin-left: 70%;
+        width: 25%;
+        display: none;
+    }
+    .talentdiv1 h4{
+        font-size: 18px;
+        margin-left: 15%;
+        width: 80%;
+        margin-right: 14%;
+        color: rgba(0, 0, 0, 0.356);
+        text-align: center;
+    }
+    .talentdiv1 h5{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #hire{
+        font-size: 10px;
+        padding: 5px 5px;
+        }
+    #pool{
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    #talentman1{
+        padding-top: 40px;
+        padding-left: 15%;
+        width: 40vh;
+        margin: 0;
+    }
+    .experience2 h4{
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0;
+        width: 60%;
+    }
+    #line1{
+       display: none;
+    }
+    .impact{
+        margin: 0;
+    }
+    .experience2 h2{
+        font-size: 35px;
+        width: 90%;
+        margin: 0;
+        padding-top: 80px;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .experience2 h5{
+        font-size: 20px;
+        font-weight: normal;
+        text-align: left;
+        margin-left: 5%;
+        padding-top: 20px;
+    }
+    .country{
+        width: 80%;
+    }
+    #count1{
+        margin-left: -5%;
+        width: 10%;
+        margin-right: 10px;
+        padding: 13px;
+    }
+    #count2{
+        width: 10%;
+        margin-right: 10px;
+        padding: 13px;
+    }
+    #count3{
+        width: 10%;
+        margin-right: 10px;
+        padding: 13px;
+    }
+    #count4{
+        width: 10%;
+        margin-right: 10px;
+        padding: 13px;
+    }
+    #count5{
+        width: 10%;
+        margin-right: 10px;
+        padding: 13px;
+    }
+    #section2{
+        margin-left: 20px;
+        margin-right: 0;
+        width: 90%;
+        margin-top: 90px;
+    }
+    .experience3 h4{
+        font-size: 30px;
+        width: 88%;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .skill{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+        display: block;
+    }
+    .skill #one{
+        font-size: 20px;
+        margin-right: 0;
+        width: fit-content;
+        margin-left: 20px;
+        padding: 10px 15px;
+    }
+    .skill #two{
+        font-size: 20px;
+        margin-right: 0;
+        width: fit-content;
+        margin-left: 20px;
+        margin-top: -10px;
+        padding: 10px 15px;
+    }
+    .skill #three{
+        font-size: 20px;
+        margin-right: 0;
+        margin-left: 20px;
+        margin-top: -10px;
+        width: fit-content;
+        padding: 10px 15px;
+    }
+    .skill #four{
+        font-size: 20px;
+        margin-right: 0;
+        margin-left: 20px;
+        width: fit-content;
+        padding: 10px 15px;
+    }
+    .experience3 h5{
+        font-size: 30px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 0;
+        text-align: left;
+    }
+    .work{
+        margin: 0;
+        width: 100%;
+        margin-bottom: 40px;
+        display: block;
+    }
+    #oone, #ttwo, #tthree, #ffour, #ffive, #ssix{
+        font-size: 20px;
+        width: fit-content;
+        margin-left: 20px;
+    }
+    .experience4 h3{
+        font-size: 30px;
+        padding-top: 100px;
+        margin: 0;
+    }
+    .work #ssix{
+        display:initial;
+    }
+    .top{
+        display: block;
+    }
+    #top1{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    #top2{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    #top3{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    #hand{
+        width: 30%;
+    }
+    .bottom{
+        display: block;
+        margin-top: 40px;
+    }
+    #bottom1{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    #bottom2{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    #rope{
+        display: none;
+    }
+    #div{
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -40px;
+    }
+    #hhire{
+        width: 45%;
+        padding: 10px 15px;
+    }
+    #ppool{
+        width: 45%;
+    }
+    .footer{
+        display: block;
+    }
+    #footer-talentlogo2{
+        width: 25%;
+        margin-left: 35%;
+        margin-right: 30%;
+    }
+    .media{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-bottom: 20px;
+    }
+    footer{
+        margin-top: -40px;
+        flex-direction: column-reverse;
+    }
+    footer h5{
+       text-align: center;
+        font-size: 15px;
+        margin: 0;
+        margin-top: 40px;
+    }
+    footer h6{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
