@@ -14,24 +14,29 @@ nav{
 nav ul li{
     list-style-type: none;
     display: inline-flex;
-    font-size: 20px;
+    font-size: 25px;
 }
 nav li{
     padding: 8px 20px;
 }
 #thumbs{
-    width: 10%;
-    padding: 5px;
+    width: 5%;
+    transform: translateY(25px);
+    padding: 10px;
+    margin-left: 13%;
+    background-color: rgba(231, 51, 43, 1);
+    border-radius: 25px;
 
 }
 #enroll{
     color: white;
-    padding: 1px 1px;
-    margin-left: 100px;
+    padding: 6px 15px;
+    margin-left: -8px;
+    font-size: 18px;
     width: fit-content;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: red;
+    background-color: rgba(231, 51, 43, 1);
 }
 header a{
     text-decoration: none;
@@ -89,7 +94,7 @@ header a{
     font-family: sans-serif;
     font-weight: normal;
     color: white;
-    background-color: red;
+    background-color: rgba(231, 51, 43, 1);
     padding: 13px 30px;
     width: fit-content;
     border-radius: 25px;
@@ -165,7 +170,7 @@ hr{
     justify-content: space-between;
 }
 .one{
-    background-color: rgba(255, 0, 0, 0.879);
+    background-color: rgba(231, 51, 43, 1);
     padding:10px;
     padding-left: 20px;
     padding-right: 20px; position: static;
@@ -382,7 +387,7 @@ hr{
     margin-left: 75%;
 }
 .talent-four{
-    background-color: red;
+    background-color: rgba(231, 51, 43, 1);
     color: white;
     width: 100%;
 }
@@ -588,11 +593,243 @@ hr{
 .talent-five h4{
     text-align: center;
     width: fit-content;
-    background-color: red;
+    background-color:rgba(231, 51, 43, 1);
     color: white;
     margin-top: 60px;
     font-size: 20px;
     margin-bottom: 80px;
     border-radius: 20px;
     padding: 13px 20px;
+}
+#section7wire{
+    width: 10%;
+    margin-top: 40px;
+    margin-left: 18%;
+}
+.talent-six p{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+.talent-six h2{
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.questions{
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
+}
+.talent-six h4{
+    font-size: 20px;
+    border-style: solid;
+    padding: 30px;
+    text-align: left;
+    margin: 0;
+    border-color: rgba(122, 119, 119, 0.863);
+}
+#ttwo, #tthree, #fffour, #ffive {
+    border-top-style: none;
+}
+.talent-six .twii{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40px;
+}
+.talent-six h5{
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.talent-six h6{
+    background-color: rgba(231, 51, 43, 1);
+    border-radius: 20px;
+    padding: 8px 13px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+#tweetat{
+    width: 15%;
+}
+#sevenwire{
+    width: 10%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+#star1{
+    width: 10%;
+    margin-left: 75%;
+}
+.talent-seven h4{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: -150px;
+}
+.talent-seven h5{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.talent-seven p{
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+.structure{
+    display: flex;
+    margin-top: 80px;
+}
+.fulltime{
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    width: 40%;
+    box-shadow: rgba(255, 208, 216, 0.589) 3px 3px 3px  3px;
+    margin-right: 2%;
+    margin-left: 8%;
+    border-radius: 1in;
+}
+.partime{
+    padding: 10px 50px 10px 50px;
+    margin-right: 8%;
+    margin-left: 2%;
+    width: 40%;
+    box-shadow: rgba(255, 208, 216, 0.589) 3px 3px 3px  3px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    position: relative;
+    border-radius: 1in;
+}
+#time{
+    width: 30%;
+    margin-top: 0;
+    margin-left: 60%;
+}
+#hour{
+    width: 20%;
+    margin-top: -100px;
+    margin-left: 75%;
+}
+.fulltime h1, .partime h1{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.fulltime h6, .partime h6{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    width: 90%;
+    margin-bottom: 0;
+}
+.fulltime h3, .partime h3{
+    font-size: 23px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fulltime li, .partime li{
+    font-size: 18px;
+}
+#circle1{
+    width: 15%;
+    transform: translateY(-35%);    
+    position: relative;
+    margin-left: 80%;
+}
+#circle2{
+    width: 10%;
+    margin-bottom: 10px;
+    margin-left: 4%;
+}
+.talent-eight{
+    background-color: rgba(231, 51, 43, 1);
+    margin-left: 4%;
+    color: white;
+    border-radius: 40px;
+    margin-right: 4%;
+}
+#bend{
+    width: 10%;
+    margin-left: 90%;
+}
+#rounnd{
+    width: 12%;
+    margin-left: 10%;
+}
+.talent-eight h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -200px;
+}.talent-eight h2{
+    text-align: center;
+    font-size: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0;
+}
+.talent-eight p{
+    text-align: center;
+    color: rgba(231, 51, 43, 1);
+    background-color: white;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    padding: 13px 15px;
+}
+.talent-eight p:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px;
+}
+.talent-eight p a{
+    text-decoration: none;
+    color: inherit;
+}
+#curve2{
+    width: 8%;
+    transform: translateY(20px);
+    margin-top: -100px;
+}
+#mains{
+    width: 10%;
+    margin-left: 90%;
+    margin-top: -100px;
+}
+footer{
+    margin-top: 1in;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+#ffo1{
+    width: 25%;
+}
+#ffo{
+    padding: 5px;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline-flex;
+}
+.footer2{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
