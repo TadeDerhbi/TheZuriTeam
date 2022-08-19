@@ -5,9 +5,12 @@ html{
 }
 nav{
     display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    margin-bottom: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
     color: black;
 
 }
@@ -23,7 +26,7 @@ nav li{
     width: 5%;
     transform: translateY(25px);
     padding: 10px;
-    margin-left: 13%;
+    margin-left: 17%;
     background-color: rgba(231, 51, 43, 1);
     border-radius: 25px;
 
@@ -708,7 +711,6 @@ hr{
     box-shadow: rgba(255, 208, 216, 0.589) 3px 3px 3px  3px;
     background-color: rgba(0, 0, 0, 0.95);
     color: white;
-    position: relative;
     border-radius: 1in;
 }
 #time{
